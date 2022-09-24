@@ -1,0 +1,587 @@
+[
+  {
+    "id": "2d6515af-ecc3-49a8-8fc5-0fe7c7db91e7",
+    "en": "If you want to shine like the sun, first burn like the sun.",
+    "tr": "Eğer güneş gibi parlamak istiyorsan önce güneş gibi yan."
+  },
+  {
+    "id": "a7819f7c-af10-411e-8565-54ee762d4165",
+    "en": "Learn from yesterday, live for today, hope for tomorrow.",
+    "tr": "Dünden öğren, bugün için yaşa, yarın için umut et."
+  },
+  {
+    "id": "a9e6b373-17d9-4238-92d6-d0091647f6aa",
+    "en": "Wealth is the slave of wise man, the master of a fool.",
+    "tr": "Zenginlik, bir bilgenin kölesi, bir aptalın efendisidir."
+  },
+  {
+    "id": "8b0092dd-4a07-4b08-b53c-7709372380cc",
+    "en": "One thing only I know, and that is that I know nothing.",
+    "tr": "Tek bildiğim şey, hiçbir şey bilmediğimdir."
+  },
+  {
+    "id": "638f16ee-64f8-40c1-9a9b-936a666d55a3",
+    "en": "Time never comes again.",
+    "tr": "Zaman asla geri gelmez."
+  },
+  {
+    "id": "15808aef-6ef1-4c69-b403-a34f403318f8",
+    "en": "Keep your eyes on the stars, and your feet on the ground.",
+    "tr": "Gözlerini yıldızlarda, ayaklarını yerde tut."
+  },
+  {
+    "id": "a09422ac-5385-4e1b-9999-80f80b0b04f8",
+    "en": "A smooth sea never made a skilled sailor.",
+    "tr": "Dalgasız deniz asla usta bir denizci yetiştiremez."
+  },
+  {
+    "id": "51383f38-d38a-45de-b7e4-2ac4d6a50ee4",
+    "en": "Do it today, or regret it tomorrow.",
+    "tr": "Bugün yap ya da yarın pişman ol."
+  },
+  {
+    "id": "68360ff4-d5ba-48cd-9267-46acd11a85b4",
+    "en": "No bees, no honey; no work, no money.",
+    "tr": "Arı yok, bal yok; iş yok, para yok."
+  },
+  {
+    "id": "e33d0ab8-b075-4dd6-99a6-14d3bd7e4d1c",
+    "en": "It’s always too early to quit.",
+    "tr": "Her zaman vazgeçmek için çok erkendir."
+  },
+  {
+    "id": "4e4b0189-9e07-4cda-981c-7e0b51598f10",
+    "en": "Silence is the most powerful scream.",
+    "tr": "Sessizlik en güçlü çığlıktır."
+  },
+  {
+    "id": "3184d22f-ed3c-47be-894a-9bb086a41f0b",
+    "en": "If you fell down yesterday, stand up today.",
+    "tr": "Dün düştüysen bugün ayağa kalk."
+  },
+  {
+    "id": "15877b4d-256b-416d-8929-8530f6deeebe",
+    "en": "A friend walks in when everyone else walks out.",
+    "tr": "Herkes çıkarken içeri giren kişi gerçek arkadaştır."
+  },
+  {
+    "id": "a8c44afd-1ec0-4c7a-915b-3cf0597961b2",
+    "en": "Everything you can imagine is real.",
+    "tr": "Hayal edebileceğin her şey gerçektir."
+  },
+  {
+    "id": "ca430292-8035-4e7f-a54d-6569140f412b",
+    "en": "Follow your heart and see where you land.",
+    "tr": "Kalbinizi takip edin ve nereye gideceğini görün."
+  },
+  {
+    "id": "ac59869f-1d9d-437c-9e7f-abd603b2d683",
+    "en": "Be not afraid of going slowly, be afraid only of standing still.",
+    "tr": "Yavaş gitmekten korkma, yerinde durmaktan kork."
+  },
+  {
+    "id": "d8d762ef-5881-413b-94a5-e2d05657b42f",
+    "en": "Everything has beauty, but not everyone sees it.",
+    "tr": "Her şeyde bir güzellik vardır, ama herkes bunu göremez."
+  },
+  {
+    "id": "41b3b5cd-e7d6-456f-a04b-7f8044294fa6",
+    "en": "The best way to predict your future is to create it.",
+    "tr": "Geleceği tahmin etmenin en iyi yolu onu yaratmaktır."
+  },
+  {
+    "id": "0e716893-1514-43cf-b205-2e3f9f124c39",
+    "en": "A heart that loves is always young.",
+    "tr": "Seven bir kalp her zaman gençtir."
+  },
+  {
+    "id": "45d30467-9669-4d8a-ba2a-a490c255978d",
+    "en": "Every accomplishment starts with the decision to try.",
+    "tr": "Her başarı denemeye karar vermekle başlar."
+  },
+  {
+    "id": "401d8d89-236a-477b-a8bc-ffe48cdbef8b",
+    "en": "A good friend knows all your best stories. A best friend has lived them with you.",
+    "tr": "İyi bir arkadaş tüm iyi anılarınızı bilir. En iyi arkadaş onları sizinle yaşar."
+  },
+  {
+    "id": "dd46f334-b7cb-4c9c-8f04-26487f3ba583",
+    "en": "If it is important to you, you will find a way. If not, you’ll find an excuse. ",
+    "tr": "Eğer senin için önemliyse bir yolunu bulursun. Eğer değilse bir bahane bulursun."
+  },
+  {
+    "id": "ccd14019-9bf9-48cd-979d-723df4edfd55",
+    "en": "Love the life you live. Live the life you love.",
+    "tr": "Yaşadığın hayatı sev. Sevdiğin hayatı yaşa."
+  },
+  {
+    "id": "e0fb9075-487d-48f9-82e1-5b8ef164bec4",
+    "en": "It’s hard to beat a person who never gives up.",
+    "tr": "Asla pes etmeyen bir insanı yenmek zordur."
+  },
+  {
+    "id": "a772e7c2-0079-4a9c-b0fb-14709060b4a7",
+    "en": "Don’t cry because it’s over, smile because it happened.",
+    "tr": "Ağlama, çünkü bitti; gülümse, çünkü oldu."
+  },
+  {
+    "id": "51f5ac03-34e2-477c-bedd-a973bb1c6e91",
+    "en": "If everything seems under control, you’re not going fast enough.",
+    "tr": "Eğer her şey kontrol altında görünüyorsa, yeterince hızlı gitmiyorsun demektir."
+  },
+  {
+    "id": "389498ce-e9d0-4a2f-b5c0-f672570eb16b",
+    "en": "He who opens a school door, closes a prison.",
+    "tr": "Her kim ki bir okul kapısı açar, o kişi bir hapishane kapatır."
+  },
+  {
+    "id": "58d2a3a4-f0af-45a5-b92c-99f19652ba74",
+    "en": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "tr": "Hayat bisiklet sürmek gibidir. Dengeni korumak için ilerlemeye devam etmelisin."
+  },
+  {
+    "id": "dc6d4480-70d7-41aa-88d8-2778fe6dec6f",
+    "en": "They can kill the dreamer, but they can never kill the dream.",
+    "tr": "Hayalperesti öldürebilirler ama hayali asla."
+  },
+  {
+    "id": "62235b2d-88a3-436a-bd50-6f73e4590b80",
+    "en": "Success is getting what you want. Happiness is wanting what you get.",
+    "tr": "Başarı istediğini elde etmektir. Mutluluk elde ettiğini istemektir."
+  },
+  {
+    "id": "e99ded69-cfa5-4808-a82a-fbbf4e02b6f9",
+    "en": "I have nothing to lose,but something to gain.",
+    "tr": "Kaybedecek bir şeyim yok fakat kazanacak bir şey var."
+  },
+  {
+    "id": "d980f4c1-ee5b-44fe-9742-420bb0c82905",
+    "en": "Men never remember, but women never forget.",
+    "tr": "Erkekler hatırlamaz, kadınlar ise asla unutmaz."
+  },
+  {
+    "id": "346248a2-50cd-4840-a57b-f2eb63f19b0d",
+    "en": "The greatest pleasure in life is doing what other people say you cannot do.",
+    "tr": "Hayattaki en büyük zevk, insanların yapamazsın dedikleri şeyleri yapmaktır."
+  },
+  {
+    "id": "9651017c-5fc6-4f16-a2fe-c4c53a812406",
+    "en": "Choose a job you love, and you will never have to work a day in your life. ",
+    "tr": "Sevdiğin bir işi seç, böylece hayatta tek bir gün bile çalışmamış olursun."
+  },
+  {
+    "id": "a96c7809-cc67-45b6-969d-9fc2f9706965",
+    "en": "Before you judge me, make sure that you’re perfect.",
+    "tr": "Beni yargılamadan önce mükemmel olduğundan emin ol."
+  },
+  {
+    "id": "e12bfa2b-ed9a-4e2e-bc97-a999f7b6cb5b",
+    "en": "A person starts dying when they stop dreaming.",
+    "tr": "Bir insan hayal kurmayı bıraktığı zaman ölmeye başlar."
+  },
+  {
+    "id": "cd8204e2-289f-4c68-b4fc-407ebdbe8507",
+    "en": "Sometimes you have to travel a long way to find what is near.",
+    "tr": "Bazen yakın olanı bulmak için uzun bir yolculuk yapman gerekir."
+  },
+  {
+    "id": "c727afbb-8192-46c0-87f9-ae115bc8f9ba",
+    "en": "War is peace. Freedom is slavery. Ignorance is strength.",
+    "tr": "Savaş barış demektir. Özgürlük köleliktir. Cehalet güçtür. (George Orwell)"
+  },
+  {
+    "id": "291528d2-87fd-497a-9d5d-ac27b5868d98",
+    "en": "The two most powerful warriors are patience and time.",
+    "tr": "En güçlü iki savaşçı sabır ve zamandır. (Leo Tolstoy)"
+  },
+  {
+    "id": "d0e77e34-7e95-46e5-ae5f-89d8ce85ed8e",
+    "en": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+    "tr": "Herkes dünyayı değiştirmeyi düşünüyor ama kimse kendinin değiştirmeyi düşünmüyor. (Leo Tolstoy)"
+  },
+  {
+    "id": "152fac36-6416-4994-9a90-9f414d5025b9",
+    "en": "A fool thinks himself to be wise, but a wise man knows himself to be a fool.",
+    "tr": "Bir aptal kendisinin bilge olduğunu düşünür, ancak bir bilge kendisinin aptal olduğunu bilir. (William Shakespeare)"
+  },
+  {
+    "id": "a7bc3030-4e27-491a-8122-1d1cb99c0858",
+    "en": "To live without hope is to cease to live.",
+    "tr": "Umut olmadan yaşamak, yaşamayı bırakmaktır. (Fyodor Dostoevsky)"
+  },
+  {
+    "id": "5ec27601-2cb7-4177-9e9b-90c674bff719",
+    "en": "There is no friend as loyal as a book.",
+    "tr": "Kitap kadar sadık hiçbir arkadaş yoktur. (Ernest Hemingway)"
+  },
+  {
+    "id": "e3dd1228-42c0-4041-92f6-0998b7ee830c",
+    "en": "I think; therefore I am.",
+    "tr": "Düşünüyorum. Öyleyse varım. (Rene Descartes)"
+  },
+  {
+    "id": "23263882-3f59-42ec-9aff-86bbe3070535",
+    "en": "Great minds discuss ideas, average minds discuss events, small minds discuss people.",
+    "tr": "Büyük beyinler fikirleri, ortalama beyinler olayları, küçük beyinler ise kişileri konuşur. (Eleanor Roosevelt)"
+  },
+  {
+    "id": "2cbde839-be07-48fe-a887-8e7e47abbcfd",
+    "en": "Life is like a coin: You can spend it any way you wish, but you only spend it once.",
+    "tr": "Yaşam para gibidir: Dilediğin gibi harcayabilirsin, ama yalnızca bir kez. (Lillian Dickson)"
+  },
+  {
+    "id": "8fff84e1-b81d-4dbb-8bfc-b4d728a85b47",
+    "en": "You can cut all the flowers, but you cannot keep spring from coming.",
+    "tr": "Bütün çiçekleri koparabilirsiniz ama baharın gelmesini engelleyemezsiniz. (Pablo Neruda)"
+  },
+  {
+    "id": "82031d2c-1db5-47fd-978f-b92282718657",
+    "en": "He is happiest, be he king or peasant who finds peace in his home.",
+    "tr": "İster kral ister köylü olsun, en mutlu insan evinde huzur bulan insandır. (Goethe)"
+  },
+  {
+    "id": "304c5d98-90c7-409b-b3df-c3d59fe731d9",
+    "en": "An intelligent hell would be better than a stupid paradise.",
+    "tr": "Zeki bir cehennem, aptal bir cennetten daha iyidir. (Victor Hugo)"
+  },
+  {
+    "id": "325e7ffb-7872-4eec-8221-117caa8a2459",
+    "en": "No army can withstand the strength of an idea whose time has come.",
+    "tr": "Hiçbir ordu, zamanı gelmiş bir düşüncenin gücüne karşı koyamaz. (Victor Hugo)"
+  },
+  {
+    "id": "c776b269-1e37-4bd4-a858-c631130b4685",
+    "en": "Being good is easy, what is difficult is being just.",
+    "tr": "İyi olmak kolaydır; zor olan adil olmaktır. (Victor Hugo)"
+  },
+  {
+    "id": "8921bf6a-e2b5-46f9-a6ed-3eb14a603959",
+    "en": "And those who were seen dancing were thought to be insane by those who could not hear the music.",
+    "tr": "Müziğin sesini duymayanlar, dans edenleri deli sanıyor. (Friedrich Nietzsche)"
+  },
+  {
+    "id": "8b7526ad-bd88-4b5d-8b5b-1f3600b17b6b",
+    "en": "That which does not kill us makes us stronger.",
+    "tr": "Bizi öldürmeyen şey, bizi daha da güçlendirir. (Friedrich Nietzsche) "
+  },
+  {
+    "id": "ff2f9a39-4e78-4b6a-9a9e-0b8fd1e2c35c",
+    "en": "Some people die at 25 and aren’t buried until 75.",
+    "tr": "Bazı insanlar yirmi beş yaşında ölür ama yetmiş beş yaşında gömülür. (Benjamin Franklin)"
+  },
+  {
+    "id": "de012553-9b84-4ac3-960e-e1073a36ed18",
+    "en": "Either write something worth reading or do something worth writing.",
+    "tr": "Ya okunmaya değer bir şeyler yazın; ya da yazılmaya değer bir şeyler yapın. (Benjamin Franklin)"
+  },
+  {
+    "id": "447b509d-6ec8-49a8-aa5c-843aa5c3ac56",
+    "en": "If you are born poor its not your mistake. But if you die poor its your mistake.",
+    "tr": "Eğer fakir olarak doğduysanız, bu sizin hatanız değildir. Fakat fakir olarak ölürseniz, bu sizin hatanızdır. (Bill Gates)"
+  },
+  {
+    "id": "721c3fdc-4f64-4bfa-8cec-af446d5b6d25",
+    "en": "A friend is someone who gives you total freedom to be yourself.",
+    "tr": "Dost, sana kendin olma özgürlüğünü tamamen tanıyan kişidir. (Jim Morrison)"
+  },
+  {
+    "id": "3e8054ab-1254-45d3-b46d-97d5b424fa7c",
+    "en": "Life is the sum of all your choices.",
+    "tr": "Hayat, tercihlerinizin toplamıdır. (Albert Camus)"
+  },
+  {
+    "id": "6d6bc0a5-32f3-4ef6-ba00-4922ad4792ae",
+    "en": "Don’t walk behind me; I may not lead. Don’t walk in front of me; I may not follow. Just walk beside me and be my friend.",
+    "tr": "Arkamdan yürüme, yol gösteremeyebilirim. Önümden yürüme, takip etmeyebilirim. Sadece yanımda yürü ve arkadaşım ol. (Albert Camus) "
+  },
+  {
+    "id": "4945ef37-c3f6-45c8-a2e4-cab61de52dcb",
+    "en": "Always tell the truth. That way, you don’t have to remember what you said.",
+    "tr": "Daima doğruyu söyleyin. Böylelikle ne dediğinizi hatırlamak zorunda kalmazsınız. (Mark Twain)"
+  },
+  {
+    "id": "cc13d5dc-99c0-480f-9f85-7b9f7f17109e",
+    "en": "Love is not just looking at each other, it’s looking in the same direction.",
+    "tr": "Aşk birbirine bakmak değil, birlikte aynı yöne bakmaktır. (Antoine de Saint-Exupéry)"
+  },
+  {
+    "id": "ec6eb93f-fa2c-4312-8c5a-032446634423",
+    "en": "A pessimist is somebody who complains about the noise when opportunity knocks.",
+    "tr": "Karamsar bir kimse fırsat kapıyı çaldığı zaman gürültüden şikâyet eden kişidir. (Oscar Wilde)"
+  },
+  {
+    "id": "534cddae-ec39-4295-ab4a-60b2a0605ed6",
+    "en": "Love is like the wind; you can’t see it but you can feel it.",
+    "tr": "Aşk rüzgâr gibidir, onu göremezsiniz ama hissedersiniz. (Nicholas Sparks)"
+  },
+  {
+    "id": "acf163c4-1a73-4b13-8918-521b16ad2810",
+    "en": "Intelligence is the ability to adapt to change",
+    "tr": "Zekâ, değişime ayak uydurabilme becerisidir. (Stephen Hawking)"
+  },
+  {
+    "id": "266eda83-bb5d-43ec-a0eb-bbf3a25c3e4f",
+    "en": "Strive not to be a success, but rather to be of value.",
+    "tr": "Başarılı olmak için değil değerli olmak için çabala. (Albert Einstein)"
+  },
+  {
+    "id": "7636afd0-6f1e-4615-ae6c-51975b24bfa1",
+    "en": "I would challenge you to a battle of wits, but I see you are unarmed.",
+    "tr": "Beyinlerimiz savaşsın isterdim; ama görüyorum ki siz silahsızsınız bayım. (Franz Kafka)"
+  },
+  {
+    "id": "38430bf4-5c1d-4e1e-acad-af9550489630",
+    "en": "There is an infinite amount of hope in the universe, but not for us.",
+    "tr": "Evrende sonsuz miktarda umut var, fakat bizim için değil. (Franz Kafka)"
+  },
+  {
+    "id": "76380164-81e6-486f-8936-18e9a909ca2d",
+    "en": "In a world where death exists, nothing is actually serious.",
+    "tr": "Ölümün olduğu bir dünyada hiçbir şey ciddi değildir aslında. (Franz Kafka)"
+  },
+  {
+    "id": "d1fb0581-b6aa-4ed3-8c16-39ae27ff63c3",
+    "en": "The trust of the innocent is the liar’s most useful tool.",
+    "tr": "Masumların güveni, yalancıların en kullanışlı aracıdır. (Stephen King)"
+  },
+  {
+    "id": "56e10938-5cc0-4510-a152-a772465972fd",
+    "en": "When you say yes to others, make sure you are not saying no to yourself.",
+    "tr": "Başkalarına evet derken, kendinize hayır demediğinize emin olun. (Paulo Coelho)"
+  },
+  {
+    "id": "8e7b971d-13c6-4b17-b70a-831303c69912",
+    "en": "Don’t waste your time with explanations: people only hear what they want to hear.",
+    "tr": "Açıklamalar yaparak vaktinizi boşa harcamayın. İnsanlar yalnızca duymak istediklerini duyarlar. (Paulo Coelho)"
+  },
+  {
+    "id": "a97b674f-7b63-4dd6-bd91-f52bc44d0245",
+    "en": "Tolerance and compassion are qualities of fearless people.",
+    "tr": "Hoşgörü ve merhamet korkusuz insanların vasıflarıdır. (Paulo Coelho)"
+  },
+  {
+    "id": "145927f5-6a85-40fd-9691-b01ae3db3080",
+    "en": "A bone to the dog is not charity. Charity is the bone shared with the dog, when you are just as hungry as the dog.",
+    "tr": "Köpeğe atılan bir kemik hayırseverlik değildir. Hayırseverlik, siz de en az köpek kadar açken onunla paylaştığınız kemiktir. (Jack London)"
+  },
+  {
+    "id": "4cd1127a-1884-4a05-81e1-d7558fd6c5d3",
+    "en": "If you don’t like something, change it. If you can’t change it, change your attitude.",
+    "tr": "Bir şeyden memnun değilsen, değiştir. Değiştiremiyorsan, tutumunu değiştir. (Maya Angelou)"
+  },
+  {
+    "id": "8430ddf5-ebfa-4229-888c-b7b5b9c9b807",
+    "en": "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "tr": "Öğrendim ki, insanlar ne söylediğini unutacaklar ne yaptığını unutacaklar, fakat onlara nasıl hissettirdiğini asla unutmayacaklar. (Maya Angelou) "
+  },
+  {
+    "id": "4c9507d6-cf4e-4398-bed2-2cdaf037f802",
+    "en": "Try to be a rainbow in someone’s cloud.",
+    "tr": "Birilerinin bulutunda gökkuşağı olmaya çalış. (Maya Angelou)"
+  },
+  {
+    "id": "d791563d-758a-4d4e-8ac5-9129736a1aef",
+    "en": "In three words I can sum up everything I’ve learned about life: it goes on.",
+    "tr": "Hayat ile ilgili öğrendiğim her şeyi üç kelime ile özetleyebilirim: hayat devam ediyor. (Robert Frost)"
+  },
+  {
+    "id": "7923e86f-95f9-4d08-bc88-8848949ed26c",
+    "en": "The problem with the world is that the intelligent people are full of doubts, while the stupid ones are full of confidence.",
+    "tr": "Dünyanın sorunu, akıllı insanlar şüphelerle doluyken, aptalların özgüvenle dolu olmasıdır. (Charles Bukowski)"
+  },
+  {
+    "id": "3499bf65-6562-4334-a7da-d470a12a7fba",
+    "en": "Your friend is the man who knows all about you and still likes you.",
+    "tr": "Dost, sizin hakkınızda her şeyi bilen ve hala sizi seven kişidir. (Elbert Hubbard)"
+  },
+  {
+    "id": "1e6f63b6-996e-4f6c-ba6b-d56bcc3a2614",
+    "en": "Do not disturb someone who does not feel your absence with your presence.",
+    "tr": "Yokluğunuzu hissetmeyeni varlığınızla rahatsız etmeyin. (Bob Marley)"
+  },
+  {
+    "id": "e5231abc-a5fb-49dd-8178-c743f600dfee",
+    "en": "If you want to be loved, be lovable.",
+    "tr": "Sevilmek istiyorsan sevilebilir ol. (Ovid)"
+  },
+  {
+    "id": "1784564a-3aaf-4c8c-ab91-c63d82deba69",
+    "en": "What the world really needs is more love and less paper work.",
+    "tr": "Dünyaya asıI gereken, daha fazIa sevgi ve daha az bürokrasi. (Pearl Bailey)"
+  },
+  {
+    "id": "033c8d61-0d42-44ea-8e71-27c8f16b7753",
+    "en": "Love cures people -both the ones who give it and the ones who receive it.",
+    "tr": "Aşk, insanları iyileştirir. Hem onu ​​verenleri hem de onu alanları."
+  },
+  {
+    "id": "fe56dec0-5b9c-44a5-abbf-c9e108d2b32e",
+    "en": "Love is the beauty of the soul.",
+    "tr": "Aşk ruhun güzelliğidir."
+  },
+  {
+    "id": "64e94fda-8024-4baf-8395-e37db85ce128",
+    "en": "To the world you are just one person but to one person you may be the World.",
+    "tr": "Dünya için sadece bir insansın, ama bir kişi için bütün dünyasın!"
+  },
+  {
+    "id": "6e04d398-a0fa-4c33-8b39-7f22298b9540",
+    "en": "Paradise is always where love dwells.",
+    "tr": "Cennet daima aşkın yaşadığı yerdedir. "
+  },
+  {
+    "id": "0ff72508-6848-406a-9fc3-51f1dcbb5f01",
+    "en": "Love is not what the mind thinks, but what the heart feels.",
+    "tr": "Aşk zihnin düşündüğü değil, kalbin hissettiğidir."
+  },
+  {
+    "id": "0fd5ab9d-12c0-47ba-98b9-faf83182b139",
+    "en": "Love is the bridge between two hearts.",
+    "tr": "Aşk iki kalp arasındaki köprüdür."
+  },
+  {
+    "id": "5fd22427-f3cf-426e-a8e4-0d2db23148c3",
+    "en": "Love is not just looking at each other, it’s looking in the same direction. ",
+    "tr": "Aşk aynı yönde bakmaktır, sadece birbirine bakmak değil."
+  },
+  {
+    "id": "d1fbae8b-c623-49fc-a55e-02ee13ac7ced",
+    "en": "True love doesn’t have a happy ending, because true love never ends.",
+    "tr": "Gerçek aşk mutlu sonla sona ermez, çünkü gerçek aşk asla bitmez."
+  },
+  {
+    "id": "3c6788c0-1e7f-4731-ba5d-63135a1d4ff1",
+    "en": "Some love lasts a lifetime. True love lasts forever.",
+    "tr": "Bazı aşklar bir ömür boyu sürer. Gerçek aşk sonsuza kadar sürer."
+  },
+  {
+    "id": "180ef96c-a975-43b1-a151-b1398aa1f5c6",
+    "en": "True love doesn’t mean being inseperable; it means being seperated and nothing changes.",
+    "tr": "Gerçek aşk, ayrılamaz olmak demek değildir; ayrı olsanız bile hiçbir şeyin değişmemesidir."
+  },
+  {
+    "id": "3e076921-059a-4b98-a946-4104eaf47fbb",
+    "en": "You can never quit. Winners never quit, and quitters never win.",
+    "tr": "Asla bırakamazsın. Kazananlar asla bırakmaz ve bırakanlar asla kazanamaz."
+  },
+  {
+    "id": "ef7803b0-a705-4f6c-80b8-15d63e718a0a",
+    "en": "It’s always too early to quit.",
+    "tr": "Her zaman vazgeçmek için çok erkendir."
+  },
+  {
+    "id": "366ec1bd-039a-4942-ab9b-d913fef9882a",
+    "en": "There is always room at the top.",
+    "tr": "Zirvede her zaman yer vardır."
+  },
+  {
+    "id": "34f2904f-9e49-4c25-84a5-06047133b74e",
+    "en": "In order to succeed, you must first believe that you can.",
+    "tr": "Başarmak için öncelikle başarabileceğine inanman gerekir."
+  },
+  {
+    "id": "27549ff1-f020-4249-9cb0-7ae0106e463a",
+    "en": "If you can dream it, you can do it.",
+    "tr": "Bir şeyi hayal edebiliyorsan, yapabilirsin."
+  },
+  {
+    "id": "0ac36814-afae-48fc-a43e-435aacd00ced",
+    "en": "Failure is not the opposite of success; it’s part of success.",
+    "tr": "Başarısızlık başarının tam tersi değildir; bu başarının bir parçasıdır."
+  },
+  {
+    "id": "f7722321-8071-4f16-a734-b84d3b4b5a07",
+    "en": "It’s not over until you win.",
+    "tr": "Sen kazanana kadar bitmeyecek."
+  },
+  {
+    "id": "381eea7c-3fa1-4cdd-a420-db49a14ba109",
+    "en": "Keep your eyes on the stars, and your feet on the ground.",
+    "tr": "Gözlerini yıldızlarda, ayaklarını yerde tut."
+  },
+  {
+    "id": "a8595335-7bf6-4f4d-8cf1-c1a6f829bd34",
+    "en": "Life is what happens while you are busy making other plans.",
+    "tr": "Hayat, sen planlar yaparken başından geçenlerdir."
+  },
+  {
+    "id": "5a95b14e-ca60-4039-9bd5-5b6c4815bd6b",
+    "en": "There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.",
+    "tr": "Mutluluğa giden tek bir yol var ki o da gücümüzün ötesinde olan şeylerle ilgili endişelenmeyi bırakmak."
+  },
+  {
+    "id": "02957916-bcd3-4033-9389-acf70ee57b91",
+    "en": "Only I can change my life. No one can do it for me.",
+    "tr": "Hayatımı sadece ben değiştirebilirim. Bunu benim için başka kimse yapamaz."
+  },
+  {
+    "id": "e47f86ea-3b04-4e86-8638-86aee5e70e19",
+    "en": "You can’t cross the sea merely by standing and staring at the water.",
+    "tr": "Kenarında durup bakarak denizi geçemezsin."
+  },
+  {
+    "id": "a4e250b8-2059-4cd9-af9b-c9050a9db1d4",
+    "en": "Imagination is more important than knowledge.",
+    "tr": "Yaratıcılık bilgiden çok daha önemlidir."
+  },
+  {
+    "id": "ec1f85a5-f4e1-4d3b-bfe6-aabfdf514a33",
+    "en": "Put your heart, mind, and soul into even your smallest acts. This is the secret of success.",
+    "tr": "Yaptığın en küçük harekete bile kalbini, aklını ve ruhunu kat. Başarının sırrı budur."
+  },
+  {
+    "id": "8ee513c3-3879-45d5-92ec-64d57edc25b1",
+    "en": "You must be the change you wish to see in the world.",
+    "tr": "Dünyada görmek istediğin değişim olmalısın."
+  },
+  {
+    "id": "f76a6f76-8350-45bd-8473-fac112da5e79",
+    "en": "It does not matter how slowly you go as long as you do not stop.",
+    "tr": "Durmadığın sürece ne kadar yavaş gittiğinin önemi yoktur."
+  },
+  {
+    "id": "1640f319-cfe7-4ccb-bedb-bb44bd7826bd",
+    "en": "The secret of getting ahead is getting started.",
+    "tr": "İleriye gitmenin yolu başlamaktır."
+  },
+  {
+    "id": "ed29322c-d316-4c47-9cd3-7fd3c3ebb2ca",
+    "en": "The way to get started is to quit talking and begin doing.",
+    "tr": "Başlamanın yolu konuşmayı bırakıp yapmaya başlamaktır."
+  },
+  {
+    "id": "a109b35b-75a4-4114-b776-83430cea064c",
+    "en": "Do it today, or regret it tomorrow.",
+    "tr": "Bugün yap ya da yarın pişman ol."
+  },
+  {
+    "id": "13b1875d-9ccc-40bc-a127-e72f8e3b8040",
+    "en": "History is the version of past events that people have decided to agree upon.",
+    "tr": "Tarih insanların üzerine anlaştıkları geçmiş olayların bir biçimidir. (Napoleon Bonaparte)"
+  },
+  {
+    "id": "aac5fde2-bae7-4077-9eb9-2a605a3b5214",
+    "en": "People are trapped in history and history is trapped in them.",
+    "tr": "İnsanlar tarihte, tarih de onlarda saklı. (James A. Baldwin)"
+  },
+  {
+    "id": "32d026c2-a52f-40f1-a06a-93ae08386a06",
+    "en": "Those who don’t know history are destined to repeat it.",
+    "tr": "Tarihi bilmeyenler onu tekrara mahkûmdur. (Edmund Burke)"
+  },
+  {
+    "id": "d1945943-3f4b-4ebf-84fc-37e71d649039",
+    "en": "War is peace. Freedom is slavery. Ignorance is strength.",
+    "tr": "Savaş barış demektir. Özgürlük köleliktir. Cehalet güçtür. (George Orwell)"
+  },
+  {
+    "id": "ce803539-a5c7-46de-95cb-573ca73bdf48",
+    "en": "Only those who will risk going too far can possibly find out how far one can go.",
+    "tr": "Yalnızca çok ileri gitmeyi göze alanlar, ne kadar ileri gidebileceklerini görebilirler."
+  },
+  {
+    "id": "ffc57170-be7b-4b1d-a19c-2a8a4a6f2176",
+    "en": "History never repeats itself. At best it sometimes rhymes.",
+    "tr": "Tarih asla tekerrür etmez. Olsa olsa bazen ritim tutturur."
+  }
+]
