@@ -16,10 +16,9 @@ interface CardPorps {
   question: any;
   updateIndex: any;
   calculateCorrectCount: any;
-  correctCount: any;
 }
 
-const Card = ({ updateIndex, calculateCorrectCount, correctCount, question }: CardPorps) => {
+const Card = ({ updateIndex, calculateCorrectCount, question }: CardPorps) => {
   const translateX = useSharedValue(0);
   const translateY = useSharedValue(0);
   const rotation = useSharedValue(Math.floor(Math.random() * 15));
@@ -42,7 +41,9 @@ const Card = ({ updateIndex, calculateCorrectCount, correctCount, question }: Ca
           runOnJS(calculateCorrectCount)(isSwipeUp, question);
         });
       } else {
+        translateX.value = withTiming(0, { duration: 500 });
         translateY.value = withTiming(0, { duration: 500 });
+        rotation.value = withTiming(0, { duration: 500 });
       }
     },
   });
@@ -67,8 +68,7 @@ const Card = ({ updateIndex, calculateCorrectCount, correctCount, question }: Ca
     <View style={styles.cardContainer}>
       <PanGestureHandler onGestureEvent={panGestureHandler}>
         <Animated.View style={[styles.card, animatedCardStyle]}>
-          <Text style={styles.fixedCountText}>{correctCount}</Text>
-          <Animated.Text style={styles.cardText}>{question.tr}</Animated.Text>
+          <Text style={styles.cardText}>{question.tr}</Text>
         </Animated.View>
       </PanGestureHandler>
     </View>
