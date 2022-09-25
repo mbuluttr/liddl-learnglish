@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { widthPercentageToDP } from 'react-native-responsive-screen';
 import { cardShadow, COLORS } from '../../../constants/colors';
+import fonts from '../../../constants/fonts';
 
 export const styles = StyleSheet.create({
   container: {
@@ -15,7 +16,7 @@ export const styles = StyleSheet.create({
   text: {
     color: COLORS.white,
     fontSize: 16,
-    fontWeight: 'bold',
     textAlign: 'center',
+    ...fonts.Bold,
   },
 });
