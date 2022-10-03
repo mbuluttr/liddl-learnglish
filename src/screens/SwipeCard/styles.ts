@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
     width: widthPercentageToDP(70),
     height: heightPercentageToDP(10),
     backgroundColor: COLORS.smallCard,
-    borderRadius: 10,
+    borderRadius: 12,
     justifyContent: 'center',
     alignItems: 'center',
     ...cardShadow,

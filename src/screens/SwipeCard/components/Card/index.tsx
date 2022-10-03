@@ -10,7 +10,7 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 import { styles } from './styles';
-import { SCREEN_HEIGHT, SWIPE_TRESHOLD } from '../../../constants/sizes';
+import { SCREEN_HEIGHT, SWIPE_TRESHOLD } from '../../../../constants/sizes';
 
 interface CardPorps {
   question: any;

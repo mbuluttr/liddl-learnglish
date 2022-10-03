@@ -8,9 +8,10 @@ export const styles = StyleSheet.create({
     width: widthPercentageToDP(90),
     height: 54,
     backgroundColor: COLORS.smallCard,
-    borderRadius: 10,
+    borderRadius: 12,
     justifyContent: 'center',
     alignItems: 'center',
+    marginBottom: 12,
     ...cardShadow,
   },
   text: {

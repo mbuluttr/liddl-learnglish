@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { COLORS } from '../../constants/colors';
 import WORDS from '../../data/words.json';
-import Card from '../components/Card';
+import Card from './components/Card';
 import { Question } from '../../types';
 import Button from '../components/Button';
 import { AppNativeStackNavigationProp } from '../../routers/types';
