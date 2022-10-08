@@ -1,7 +1,7 @@
 export const COLORS = {
-  main: '#202020',
+  dark: '#202020',
   white: '#FFFFFF',
-  smallCard: '#252525',
+  light: '#252525',
   cardShadow: '#050505',
 };
 

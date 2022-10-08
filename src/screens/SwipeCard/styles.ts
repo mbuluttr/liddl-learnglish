@@ -6,7 +6,7 @@ import fonts from '../../constants/fonts';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: COLORS.main,
+    backgroundColor: COLORS.dark,
   },
   content: {
     flex: 1,
@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
   wordContainer: {
     width: widthPercentageToDP(70),
     height: heightPercentageToDP(10),
-    backgroundColor: COLORS.smallCard,
+    backgroundColor: COLORS.light,
     borderRadius: 12,
     justifyContent: 'center',
     alignItems: 'center',

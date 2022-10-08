@@ -79,7 +79,7 @@ const SwipeCard = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle={'light-content'} backgroundColor={COLORS.main} />
+      <StatusBar barStyle={'light-content'} backgroundColor={COLORS.dark} />
       <Header leftIconPress={() => navigation.goBack()} rightIconPress={() => setShowEndGame(true)} />
 
       {questions.length > 0 && !showEndGame ? (
