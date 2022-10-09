@@ -12,7 +12,7 @@ import Header from '../components/Header';
 import { useNavigation } from '@react-navigation/native';
 import EndGame from '../components/EndGame';
 
-const QUESTION_COUNT = 10;
+const QUESTION_COUNT = 24;
 
 const SwipeCard = () => {
   const [correctCount, setCorrectCount] = useState(0);
@@ -20,6 +20,7 @@ const SwipeCard = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [showEndGame, setShowEndGame] = useState(false);
   const [index, setIndex] = useState(QUESTION_COUNT);
+  const [loading, setLoading] = useState(true);
   const navigation = useNavigation<AppNativeStackNavigationProp>();
 
   const createRandomQuestion = () => {
@@ -51,13 +52,12 @@ const SwipeCard = () => {
   };
 
   const calculateCorrectCount = (swipeDirection: boolean, question: Question) => {
+    updateIndex();
     if ((swipeDirection && question.correctWay % 2 === 0) || (!swipeDirection && question.correctWay % 2 !== 0)) {
       setCorrectCount(correctCount + 1);
     } else {
       setWrongCount(wrongCount + 1);
     }
-
-    console.log(swipeDirection, question.correctWay);
 
     setQuestions(questions.filter((q) => q.id !== question.id));
   };
@@ -67,15 +67,14 @@ const SwipeCard = () => {
     for (let i = 0; i <= QUESTION_COUNT; i++) {
       qs.push(createRandomQuestion());
     }
-    setQuestions(qs);
 
-    return () => {
-      setCorrectCount(0);
-      setWrongCount(0);
-      setQuestions([]);
-      setIndex(QUESTION_COUNT);
-    };
+    setQuestions(qs);
+    setLoading(false);
   }, []);
+
+  if (loading) {
+    return <View style={styles.container} />;
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -93,14 +92,7 @@ const SwipeCard = () => {
           </View>
           <View style={styles.cardContent}>
             {questions.map((question) => {
-              return (
-                <Card
-                  key={question.id}
-                  calculateCorrectCount={calculateCorrectCount}
-                  question={question}
-                  updateIndex={updateIndex}
-                />
-              );
+              return <Card key={question.id} calculateCorrectCount={calculateCorrectCount} question={question} />;
             })}
           </View>
           <View style={styles.wordContainer}>
