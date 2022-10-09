@@ -14,10 +14,11 @@ import { SCREEN_HEIGHT, SWIPE_TRESHOLD } from '../../../../constants/sizes';
 
 interface CardPorps {
   question: any;
+  updateIndex: any;
   calculateCorrectCount: any;
 }
 
-const Card = ({ calculateCorrectCount, question }: CardPorps) => {
+const Card = ({ updateIndex, calculateCorrectCount, question }: CardPorps) => {
   const translateX = useSharedValue(0);
   const translateY = useSharedValue(0);
   const rotation = useSharedValue(Math.floor(Math.random() * 15));
@@ -35,6 +36,7 @@ const Card = ({ calculateCorrectCount, question }: CardPorps) => {
       const SWIPE_DIRECTION = isSwipeUp ? -SCREEN_HEIGHT : isSwipeDown ? SCREEN_HEIGHT : 0;
 
       if (SWIPE_DIRECTION) {
+        runOnJS(updateIndex)();
         translateY.value = withTiming(SWIPE_DIRECTION, { duration: 1000 }, () => {
           runOnJS(calculateCorrectCount)(isSwipeUp, question);
         });

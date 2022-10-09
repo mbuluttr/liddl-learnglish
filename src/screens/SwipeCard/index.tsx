@@ -12,7 +12,7 @@ import Header from '../components/Header';
 import { useNavigation } from '@react-navigation/native';
 import EndGame from '../components/EndGame';
 
-const QUESTION_COUNT = 24;
+const QUESTION_COUNT = 10;
 
 const SwipeCard = () => {
   const [correctCount, setCorrectCount] = useState(0);
@@ -92,7 +92,14 @@ const SwipeCard = () => {
           </View>
           <View style={styles.cardContent}>
             {questions.map((question) => {
-              return <Card key={question.id} calculateCorrectCount={calculateCorrectCount} question={question} />;
+              return (
+                <Card
+                  key={question.id}
+                  calculateCorrectCount={calculateCorrectCount}
+                  updateIndex={updateIndex}
+                  question={question}
+                />
+              );
             })}
           </View>
           <View style={styles.wordContainer}>
