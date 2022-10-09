@@ -12,14 +12,14 @@ import Header from '../components/Header';
 import { useNavigation } from '@react-navigation/native';
 import EndGame from '../components/EndGame';
 
-const QUESTION_COUNT = 10;
+const QUESTION_COUNT = 25;
 
 const SwipeCard = () => {
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [showEndGame, setShowEndGame] = useState(false);
-  const [index, setIndex] = useState(QUESTION_COUNT);
+  const [index, setIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const navigation = useNavigation<AppNativeStackNavigationProp>();
 
@@ -52,7 +52,6 @@ const SwipeCard = () => {
   };
 
   const calculateCorrectCount = (swipeDirection: boolean, question: Question) => {
-    updateIndex();
     if ((swipeDirection && question.correctWay % 2 === 0) || (!swipeDirection && question.correctWay % 2 !== 0)) {
       setCorrectCount(correctCount + 1);
     } else {
@@ -63,11 +62,15 @@ const SwipeCard = () => {
   };
 
   useEffect(() => {
-    const qs = [];
+    const qs: Question[] = [];
     for (let i = 0; i <= QUESTION_COUNT; i++) {
-      qs.push(createRandomQuestion());
+      const q = createRandomQuestion();
+      if (!qs.find((question) => question.id === q.id)) {
+        qs.push(q);
+      }
     }
 
+    setIndex(qs.length - 1);
     setQuestions(qs);
     setLoading(false);
   }, []);
