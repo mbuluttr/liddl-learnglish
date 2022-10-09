@@ -13,8 +13,9 @@ interface HomeProps {
 const Home = ({ navigation }: HomeProps) => {
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle={'light-content'} backgroundColor={COLORS.main} />
+      <StatusBar barStyle={'light-content'} backgroundColor={COLORS.dark} />
       <Button title={'SwipeCard'} onPress={() => navigation.navigate('SwipeCard')} />
+      <Button title={'FlipCard'} onPress={() => navigation.navigate('FlipCard')} />
     </SafeAreaView>
   );
 };

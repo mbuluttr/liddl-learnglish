@@ -27,20 +27,6 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     ...fonts.Bold,
   },
-  endGameContainer: {
-    flex: 1,
-    alignItems: 'center',
-    marginTop: heightPercentageToDP(20),
-  },
-  scoreText: {
-    color: COLORS.white,
-    fontSize: 22,
-    ...fonts.Bold,
-  },
-  bottomButtonContainer: {
-    position: 'absolute',
-    bottom: 20,
-  },
   cardContent: {
     flex: 1,
     justifyContent: 'center',

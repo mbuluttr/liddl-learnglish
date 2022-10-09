@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
     borderRadius: 12,
     width: widthPercentageToDP(70),
     height: heightPercentageToDP(40),
-    paddingHorizontal: 20,
+    paddingHorizontal: 18,
     justifyContent: 'center',
     alignItems: 'center',
     ...cardShadow,

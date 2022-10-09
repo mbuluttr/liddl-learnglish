@@ -4,8 +4,8 @@ import fonts from '../../../constants/fonts';
 
 export const styles = StyleSheet.create({
   container: {
-    marginVertical: 20,
-    paddingHorizontal: 20,
+    marginVertical: 18,
+    paddingHorizontal: 18,
     justifyContent: 'space-between',
     flexDirection: 'row',
   },

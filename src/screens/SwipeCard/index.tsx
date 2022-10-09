@@ -7,12 +7,12 @@ import { COLORS } from '../../constants/colors';
 import WORDS from '../../data/words.json';
 import Card from './components/Card';
 import { Question } from '../../types';
-import Button from '../components/Button';
 import { AppNativeStackNavigationProp } from '../../routers/types';
 import Header from '../components/Header';
 import { useNavigation } from '@react-navigation/native';
+import EndGame from '../components/EndGame';
 
-const QUESTION_COUNT = 2;
+const QUESTION_COUNT = 10;
 
 const SwipeCard = () => {
   const [correctCount, setCorrectCount] = useState(0);
@@ -112,13 +112,7 @@ const SwipeCard = () => {
           </View>
         </View>
       ) : (
-        <View style={styles.endGameContainer}>
-          <Text style={styles.scoreText}>Correct Count: {correctCount}</Text>
-          <Text style={styles.scoreText}>Wrong Count: {wrongCount}</Text>
-          <View style={styles.bottomButtonContainer}>
-            <Button title={'Go Back'} onPress={() => navigation.goBack()} />
-          </View>
-        </View>
+        <EndGame correctCount={correctCount} wrongCount={wrongCount} />
       )}
     </SafeAreaView>
   );

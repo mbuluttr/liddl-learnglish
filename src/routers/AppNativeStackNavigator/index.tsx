@@ -1,5 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
+import FlipCard from '../../screens/FlipCard';
 import Home from '../../screens/Home';
 import SwipeCard from '../../screens/SwipeCard';
 import { AppNativeStackNavigatorParamList } from '../types';
@@ -12,9 +13,11 @@ const AppNativeStackNavigator = () => {
       screenOptions={{
         headerShown: false,
       }}
+      initialRouteName={'Home'}
     >
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="SwipeCard" component={SwipeCard} />
+      <Stack.Screen name="FlipCard" component={FlipCard} />
     </Stack.Navigator>
   );
 };
