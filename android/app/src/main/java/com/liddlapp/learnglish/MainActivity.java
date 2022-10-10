@@ -1,4 +1,4 @@
-package com.learnglish;
+package com.liddlapp.learnglish;
 import android.os.Bundle;
 
 import com.facebook.react.ReactActivity;

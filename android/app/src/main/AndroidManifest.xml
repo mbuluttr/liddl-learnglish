@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.learnglish">
+  package="com.liddlapp.learnglish">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
