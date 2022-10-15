@@ -16,7 +16,7 @@ const EndGame = ({
   correctCount,
   wrongCount,
   correctTitle = 'Corrrect Count',
-  wrongTitle = 'WrongCount',
+  wrongTitle = 'Wrong Count',
 }: EndGameProps) => {
   const navigation = useNavigation<AppNativeStackNavigationProp>();
 
