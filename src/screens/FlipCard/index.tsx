@@ -61,7 +61,7 @@ const FlipCard = () => {
   });
 
   const onFlipPress = () => {
-    degree.value = degree.value === 0 ? withTiming(180, { duration: 500 }) : withTiming(0, { duration: 500 });
+    degree.value = degree.value === 0 ? withTiming(180, { duration: 1500 }) : withTiming(0, { duration: 1500 });
   };
 
   return (
