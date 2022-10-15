@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
   content: {
     flex: 1,
     alignSelf: 'center',
+    marginBottom: heightPercentageToDP(10),
   },
   wordContainer: {
     width: widthPercentageToDP(70),
