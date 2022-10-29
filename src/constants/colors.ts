@@ -3,6 +3,7 @@ export const COLORS = {
   white: '#FFFFFF',
   light: '#252525',
   cardShadow: '#050505',
+  card: '#171717',
 };
 
 export const cardShadow = {

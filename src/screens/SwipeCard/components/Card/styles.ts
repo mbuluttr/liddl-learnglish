@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
     position: 'absolute',
   },
   card: {
-    backgroundColor: '#171717',
+    backgroundColor: COLORS.card,
     borderRadius: 12,
     width: widthPercentageToDP(70),
     height: heightPercentageToDP(40),
