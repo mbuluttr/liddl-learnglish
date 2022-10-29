@@ -12,6 +12,7 @@ const AppNativeStackNavigator = () => {
     <Stack.Navigator
       screenOptions={{
         headerShown: false,
+        animation: 'slide_from_right',
       }}
       initialRouteName={'Home'}
     >
