@@ -12,7 +12,7 @@ import Header from '../components/Header';
 import { useNavigation } from '@react-navigation/native';
 import EndGame from '../components/EndGame';
 
-const QUESTION_COUNT = 25;
+const QUESTION_COUNT = 24;
 
 const SwipeCard = () => {
   const [correctCount, setCorrectCount] = useState(0);
