@@ -11,11 +11,12 @@ import Animated, {
 } from 'react-native-reanimated';
 import { styles } from './styles';
 import { SCREEN_HEIGHT, SWIPE_TRESHOLD } from '../../../../constants/sizes';
+import { Question } from '../../../../types';
 
 interface CardPorps {
-  question: any;
-  updateIndex: any;
-  calculateCorrectCount: any;
+  question: Question;
+  updateIndex: () => void;
+  calculateCorrectCount: (swipeDirection: boolean, question: Question) => void;
 }
 
 const Card = ({ updateIndex, calculateCorrectCount, question }: CardPorps) => {
