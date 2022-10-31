@@ -8,9 +8,9 @@ import WORDS from '../../data/words.json';
 import Card from './components/Card';
 import { Question } from '../../types';
 import { AppNativeStackNavigationProp } from '../../routers/types';
-import Header from '../components/Header';
+import Header from '../../components/Header';
 import { useNavigation } from '@react-navigation/native';
-import EndGame from '../components/EndGame';
+import EndGame from '../../components/EndGame';
 
 const QUESTION_COUNT = 24;
 

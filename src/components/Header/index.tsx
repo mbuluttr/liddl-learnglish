@@ -2,8 +2,8 @@ import { GestureResponderEvent, Text, TouchableOpacity, View } from 'react-nativ
 import React from 'react';
 import { styles } from './styles';
 import Feather from 'react-native-vector-icons/Feather';
-import { COLORS } from '../../../constants/colors';
-import { HIT_SLOP } from '../../../constants/sizes';
+import { COLORS } from '../../constants/colors';
+import { HIT_SLOP } from '../../constants/sizes';
 
 interface HeaderProps {
   leftIconPress: ((event: GestureResponderEvent) => void) | undefined;

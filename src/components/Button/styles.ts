@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { widthPercentageToDP } from 'react-native-responsive-screen';
-import { cardShadow, COLORS } from '../../../constants/colors';
-import fonts from '../../../constants/fonts';
+import { cardShadow, COLORS } from '../../constants/colors';
+import fonts from '../../constants/fonts';
 
 export const styles = StyleSheet.create({
   container: {

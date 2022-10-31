@@ -3,13 +3,13 @@ import React, { Fragment, useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { styles } from './styles';
 import Animated, { interpolate, runOnJS, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
-import Header from '../components/Header';
+import Header from '../../components/Header';
 import { AppNativeStackNavigationProp } from '../../routers/types';
 import { COLORS } from '../../constants/colors';
 import { useNavigation } from '@react-navigation/native';
-import Button from '../components/Button';
+import Button from '../../components/Button';
 import WORDS from '../../data/words.json';
-import EndGame from '../components/EndGame';
+import EndGame from '../../components/EndGame';
 import { SCREEN_WIDTH } from '../../constants/sizes';
 
 const FlipCard = () => {

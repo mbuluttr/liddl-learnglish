@@ -1,7 +1,7 @@
 import { Text, View } from 'react-native';
 import React from 'react';
 import Button from '../Button';
-import { AppNativeStackNavigationProp } from '../../../routers/types';
+import { AppNativeStackNavigationProp } from '../../routers/types';
 import { styles } from './styles';
 import { useNavigation } from '@react-navigation/native';
 
