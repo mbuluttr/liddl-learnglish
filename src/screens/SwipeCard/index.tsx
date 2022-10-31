@@ -11,6 +11,7 @@ import { AppNativeStackNavigationProp } from '../../routers/types';
 import Header from '../../components/Header';
 import { useNavigation } from '@react-navigation/native';
 import EndGame from '../../components/EndGame';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const QUESTION_COUNT = 24;
 
@@ -51,11 +52,17 @@ const SwipeCard = () => {
     setIndex(index > 0 ? index - 1 : 0);
   };
 
-  const calculateCorrectCount = (swipeDirection: boolean, question: Question) => {
+  const calculateCorrectCount = async (swipeDirection: boolean, question: Question) => {
     if ((swipeDirection && question.correctWay % 2 === 0) || (!swipeDirection && question.correctWay % 2 !== 0)) {
       setCorrectCount(correctCount + 1);
     } else {
       setWrongCount(wrongCount + 1);
+
+      const storagedWords = await AsyncStorage.getItem('unknownWords');
+      const unknownWordsArray = JSON.parse(storagedWords || '[]');
+      const word = WORDS.find((item) => item.id === question.id);
+      unknownWordsArray.unshift(word);
+      await AsyncStorage.setItem('unknownWords', JSON.stringify(unknownWordsArray));
     }
 
     setQuestions(questions.filter((q) => q.id !== question.id));

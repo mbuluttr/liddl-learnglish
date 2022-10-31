@@ -4,6 +4,7 @@ export type AppNativeStackNavigatorParamList = {
   Home: undefined;
   SwipeCard: undefined;
   FlipCard: undefined;
+  UnknownWords: undefined;
 };
 
 export type AppNativeStackNavigationProp = NativeStackNavigationProp<AppNativeStackNavigatorParamList>;

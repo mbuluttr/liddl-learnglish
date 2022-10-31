@@ -14,8 +14,9 @@ const Home = ({ navigation }: HomeProps) => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle={'light-content'} backgroundColor={COLORS.dark} />
-      <Button title={'SwipeCard'} onPress={() => navigation.navigate('SwipeCard')} />
-      <Button title={'FlipCard'} onPress={() => navigation.navigate('FlipCard')} />
+      <Button title={'Swipe Card'} onPress={() => navigation.navigate('SwipeCard')} />
+      <Button title={'Flip Card'} onPress={() => navigation.navigate('FlipCard')} />
+      <Button title={'Unknown Words'} onPress={() => navigation.navigate('UnknownWords')} />
     </SafeAreaView>
   );
 };

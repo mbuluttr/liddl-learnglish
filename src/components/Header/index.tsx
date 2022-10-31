@@ -7,7 +7,7 @@ import { HIT_SLOP } from '../../constants/sizes';
 
 interface HeaderProps {
   leftIconPress: ((event: GestureResponderEvent) => void) | undefined;
-  rightIconPress: ((event: GestureResponderEvent) => void) | undefined;
+  rightIconPress?: ((event: GestureResponderEvent) => void) | undefined;
 }
 
 const Header = ({ leftIconPress, rightIconPress }: HeaderProps) => {
@@ -16,9 +16,11 @@ const Header = ({ leftIconPress, rightIconPress }: HeaderProps) => {
       <TouchableOpacity activeOpacity={0.8} onPress={leftIconPress} hitSlop={HIT_SLOP}>
         <Feather name="arrow-left" size={24} color={COLORS.white} />
       </TouchableOpacity>
-      <TouchableOpacity activeOpacity={0.8} onPress={rightIconPress} hitSlop={HIT_SLOP}>
-        <Text style={styles.text}>Stop Session</Text>
-      </TouchableOpacity>
+      {rightIconPress && (
+        <TouchableOpacity activeOpacity={0.8} onPress={rightIconPress} hitSlop={HIT_SLOP}>
+          <Text style={styles.text}>Stop Session</Text>
+        </TouchableOpacity>
+      )}
     </View>
   );
 };

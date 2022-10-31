@@ -5,3 +5,10 @@ export type Question = {
   wrongAnswer: string;
   correctWay: number;
 };
+
+export type Word = {
+  id: string;
+  tr: string;
+  en: string;
+  level: string;
+};

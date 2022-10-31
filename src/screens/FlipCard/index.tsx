@@ -11,6 +11,7 @@ import Button from '../../components/Button';
 import WORDS from '../../data/words.json';
 import EndGame from '../../components/EndGame';
 import { SCREEN_WIDTH } from '../../constants/sizes';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const FlipCard = () => {
   const degree = useSharedValue(0);
@@ -35,13 +36,18 @@ const FlipCard = () => {
     });
   };
 
-  const onThumbsDownPress = () => {
+  const onThumbsDownPress = async () => {
     setWrongCount(wrongCount + 1);
     translateX.value = withTiming(-SCREEN_WIDTH, { duration: 500 }, () => {
       translateX.value = withTiming(0, { duration: 250 });
       degree.value = 0;
       runOnJS(getRandomWord)();
     });
+
+    const storagedWords = await AsyncStorage.getItem('unknownWords');
+    const unknownWordsArray = JSON.parse(storagedWords || '[]');
+    unknownWordsArray.unshift(word);
+    await AsyncStorage.setItem('unknownWords', JSON.stringify(unknownWordsArray));
   };
 
   const animatedFront = useAnimatedStyle(() => {
