@@ -4,6 +4,7 @@ export const COLORS = {
   light: '#252525',
   cardShadow: '#050505',
   card: '#171717',
+  red: '#FF3838',
 };
 
 export const cardShadow = {

@@ -1,4 +1,4 @@
-import { FlatList, StatusBar } from 'react-native';
+import { FlatList, StatusBar, View } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { styles } from './styles';
@@ -28,16 +28,27 @@ const UnknownWords = () => {
     getStoragedWords();
   }, []);
 
+  const onDelete = (id: string) => {
+    const filteredWords = unknownWords.filter((word) => word.id !== id);
+    setUnknownWords(filteredWords);
+    AsyncStorage.setItem('unknownWords', JSON.stringify(filteredWords));
+  };
+
+  const renderItem = ({ item }: { item: Word }) => <HidedAnswer item={item} onDelete={onDelete} />;
+
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle={'light-content'} backgroundColor={COLORS.dark} />
       <Header leftIconPress={() => navigation.goBack()} />
-      <FlatList
-        data={unknownWords}
-        keyExtractor={(item) => item.id}
-        contentContainerStyle={styles.flatListContentContainer}
-        renderItem={({ item }) => <HidedAnswer item={item} />}
-      />
+      <View>
+        <FlatList
+          keyboardShouldPersistTaps="never"
+          data={unknownWords}
+          keyExtractor={(item) => item.id}
+          contentContainerStyle={styles.flatListContentContainer}
+          renderItem={renderItem}
+        />
+      </View>
     </SafeAreaView>
   );
 };

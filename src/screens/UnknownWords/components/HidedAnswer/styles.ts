@@ -4,12 +4,16 @@ import { COLORS } from '../../../../constants/colors';
 import fonts from '../../../../constants/fonts';
 
 export const styles = StyleSheet.create({
+  container: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: COLORS.white,
+  },
   wordContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: COLORS.white,
     paddingVertical: 18,
   },
   trText: {
@@ -24,5 +28,9 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     width: widthPercentageToDP(45),
     textAlign: 'right',
+  },
+  trashIcon: {
+    right: 0,
+    position: 'absolute',
   },
 });
