@@ -14,7 +14,7 @@ import EndGame from '../../components/EndGame';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useSharedValue } from 'react-native-reanimated';
 
-const QUESTION_COUNT = 24;
+const QUESTION_COUNT = 14;
 
 const SwipeCard = () => {
   const [correctCount, setCorrectCount] = useState(0);
@@ -56,6 +56,7 @@ const SwipeCard = () => {
   };
 
   const calculateCorrectCount = async (swipeDirection: boolean, question: Question) => {
+    swipeEnabled.value = true;
     if ((swipeDirection && question.correctWay % 2 === 0) || (!swipeDirection && question.correctWay % 2 !== 0)) {
       setCorrectCount(correctCount + 1);
     } else {
@@ -67,7 +68,6 @@ const SwipeCard = () => {
       unknownWordsArray.unshift(word);
       await AsyncStorage.setItem('unknownWords', JSON.stringify(unknownWordsArray));
     }
-    swipeEnabled.value = true;
     setQuestions(questions.filter((q) => q.id !== question.id));
   };
 
