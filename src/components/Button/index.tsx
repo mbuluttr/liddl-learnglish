@@ -6,11 +6,12 @@ interface ButtonProps {
   title: string;
   extraStyle?: StyleProp<ViewStyle>;
   onPress: (event: GestureResponderEvent) => void;
+  disabled?: boolean;
 }
 
-const Button = ({ title, extraStyle, onPress }: ButtonProps) => {
+const Button = ({ title, extraStyle, onPress, disabled }: ButtonProps) => {
   return (
-    <TouchableOpacity style={[styles.container, extraStyle]} onPress={onPress} activeOpacity={0.8}>
+    <TouchableOpacity style={[styles.container, extraStyle]} onPress={onPress} activeOpacity={0.8} disabled={disabled}>
       <Text style={styles.text}>{title}</Text>
     </TouchableOpacity>
   );

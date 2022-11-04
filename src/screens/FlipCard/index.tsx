@@ -21,6 +21,8 @@ const FlipCard = () => {
   const [wrongCount, setWrongCount] = useState(0);
   const [word, setWord] = useState(WORDS[Math.floor(Math.random() * WORDS.length)]);
   const navigation = useNavigation<AppNativeStackNavigationProp>();
+  const [disableThumbsDown, setDisableThumbsDown] = useState(false);
+  const [disableThumbsUp, setDisableThumbsUp] = useState(false);
 
   const getRandomWord = () => {
     const randomWord = WORDS[Math.floor(Math.random() * WORDS.length)];
@@ -28,20 +30,24 @@ const FlipCard = () => {
   };
 
   const onThumbsUpPress = () => {
+    setDisableThumbsUp(true);
     setCorrectCount(correctCount + 1);
     translateX.value = withTiming(SCREEN_WIDTH, { duration: 500 }, () => {
       translateX.value = withTiming(0, { duration: 250 });
       degree.value = 0;
       runOnJS(getRandomWord)();
+      runOnJS(setDisableThumbsUp)(false);
     });
   };
 
   const onThumbsDownPress = async () => {
+    setDisableThumbsDown(true);
     setWrongCount(wrongCount + 1);
     translateX.value = withTiming(-SCREEN_WIDTH, { duration: 500 }, () => {
       translateX.value = withTiming(0, { duration: 250 });
       degree.value = 0;
       runOnJS(getRandomWord)();
+      runOnJS(setDisableThumbsDown)(false);
     });
 
     const storagedWords = await AsyncStorage.getItem('unknownWords');
@@ -87,9 +93,9 @@ const FlipCard = () => {
             </Animated.View>
           </View>
           <View style={styles.buttonContainer}>
-            <Button extraStyle={styles.button} title={'👎🏻'} onPress={onThumbsDownPress} />
+            <Button extraStyle={styles.button} title={'👎🏻'} onPress={onThumbsDownPress} disabled={disableThumbsDown} />
             <Button extraStyle={styles.button} title={'flip'} onPress={onFlipPress} />
-            <Button extraStyle={styles.button} title={'👍🏻'} onPress={onThumbsUpPress} />
+            <Button extraStyle={styles.button} title={'👍🏻'} onPress={onThumbsUpPress} disabled={disableThumbsUp} />
           </View>
         </Fragment>
       ) : (
