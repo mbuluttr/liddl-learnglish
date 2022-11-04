@@ -21,6 +21,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     ...cardShadow,
+    zIndex: 1,
   },
   wordText: {
     color: COLORS.white,

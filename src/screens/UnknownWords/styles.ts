@@ -8,15 +8,14 @@ export const styles = StyleSheet.create({
     backgroundColor: COLORS.dark,
   },
   flatListContentContainer: {
-    flex: 1,
     paddingHorizontal: 18,
     paddingBottom: 125,
   },
   emptyContainer: {
-    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     paddingBottom: -125,
+    marginTop: 125,
   },
   emptyText: {
     ...FONTS.SemiBold,
