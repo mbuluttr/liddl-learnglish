@@ -17,9 +17,10 @@ interface CardPorps {
   question: Question;
   updateIndex: () => void;
   calculateCorrectCount: (swipeDirection: boolean, question: Question) => void;
+  swipeEnabled: Animated.SharedValue<boolean>;
 }
 
-const Card = ({ updateIndex, calculateCorrectCount, question }: CardPorps) => {
+const Card = ({ updateIndex, calculateCorrectCount, question, swipeEnabled }: CardPorps) => {
   const translateX = useSharedValue(0);
   const translateY = useSharedValue(0);
   const rotation = useSharedValue(Math.floor(Math.random() * 15));
@@ -67,7 +68,7 @@ const Card = ({ updateIndex, calculateCorrectCount, question }: CardPorps) => {
 
   return (
     <View style={styles.cardContainer}>
-      <PanGestureHandler onGestureEvent={panGestureHandler}>
+      <PanGestureHandler onGestureEvent={panGestureHandler} enabled={swipeEnabled.value}>
         <Animated.View style={[styles.card, animatedCardStyle]}>
           <Text style={styles.cardText}>{question.tr}</Text>
         </Animated.View>

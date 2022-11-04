@@ -12,6 +12,7 @@ import Header from '../../components/Header';
 import { useNavigation } from '@react-navigation/native';
 import EndGame from '../../components/EndGame';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useSharedValue } from 'react-native-reanimated';
 
 const QUESTION_COUNT = 24;
 
@@ -23,6 +24,7 @@ const SwipeCard = () => {
   const [index, setIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const navigation = useNavigation<AppNativeStackNavigationProp>();
+  const swipeEnabled = useSharedValue(true);
 
   const createRandomQuestion = () => {
     const randomOne = WORDS[Math.floor(Math.random() * WORDS.length)];
@@ -49,6 +51,7 @@ const SwipeCard = () => {
   };
 
   const updateIndex = () => {
+    swipeEnabled.value = false;
     setIndex(index > 0 ? index - 1 : 0);
   };
 
@@ -64,7 +67,7 @@ const SwipeCard = () => {
       unknownWordsArray.unshift(word);
       await AsyncStorage.setItem('unknownWords', JSON.stringify(unknownWordsArray));
     }
-
+    swipeEnabled.value = true;
     setQuestions(questions.filter((q) => q.id !== question.id));
   };
 
@@ -108,6 +111,7 @@ const SwipeCard = () => {
                   calculateCorrectCount={calculateCorrectCount}
                   updateIndex={updateIndex}
                   question={question}
+                  swipeEnabled={swipeEnabled}
                 />
               );
             })}
