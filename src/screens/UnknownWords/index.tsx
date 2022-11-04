@@ -19,7 +19,6 @@ const UnknownWords = () => {
       const storagedWords = await AsyncStorage.getItem('unknownWords');
 
       if (storagedWords) {
-        console.log(storagedWords);
         const parsedWords = JSON.parse(storagedWords);
         setUnknownWords(parsedWords);
       }

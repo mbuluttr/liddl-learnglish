@@ -40,7 +40,9 @@ const HidedAnswer = ({ item, onDelete }: HidedAnswerProps) => {
       } else {
         cardTranslateX.value = withTiming(0);
       }
-    });
+    })
+    .activeOffsetX([-5, 5])
+    .failOffsetY([-5, 5]);
 
   const animatedCardStyle = useAnimatedStyle(() => {
     return {
