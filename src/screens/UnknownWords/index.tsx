@@ -1,4 +1,4 @@
-import { FlatList, StatusBar, View } from 'react-native';
+import { FlatList, StatusBar, Text, View } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { styles } from './styles';
@@ -35,19 +35,24 @@ const UnknownWords = () => {
 
   const renderItem = ({ item }: { item: Word }) => <HidedAnswer item={item} onDelete={onDelete} />;
 
+  const renderListEmptyComponent = () => (
+    <View style={styles.emptyContainer}>
+      <Text style={styles.emptyText}>list is empty</Text>
+    </View>
+  );
+
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle={'light-content'} backgroundColor={COLORS.dark} />
       <Header leftIconPress={() => navigation.goBack()} />
-      <View>
-        <FlatList
-          keyboardShouldPersistTaps="never"
-          data={unknownWords}
-          keyExtractor={(item) => item.id}
-          contentContainerStyle={styles.flatListContentContainer}
-          renderItem={renderItem}
-        />
-      </View>
+      <FlatList
+        keyboardShouldPersistTaps="never"
+        data={unknownWords}
+        keyExtractor={(item) => item.id}
+        contentContainerStyle={styles.flatListContentContainer}
+        renderItem={renderItem}
+        ListEmptyComponent={renderListEmptyComponent}
+      />
     </SafeAreaView>
   );
 };
