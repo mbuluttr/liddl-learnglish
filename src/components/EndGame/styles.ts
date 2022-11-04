@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { heightPercentageToDP } from 'react-native-responsive-screen';
 import { COLORS } from '../../constants/colors';
-import fonts from '../../constants/fonts';
+import { FONTS } from '../../constants/fonts';
 
 export const styles = StyleSheet.create({
   endGameContainer: {
@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
   scoreText: {
     color: COLORS.white,
     fontSize: 22,
-    ...fonts.Bold,
+    ...FONTS.Bold,
   },
   bottomButtonContainer: {
     position: 'absolute',

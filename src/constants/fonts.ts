@@ -1,4 +1,4 @@
-export default {
+export const FONTS = {
   Light: {
     fontFamily: 'FiraCode-Light',
     letterSpacing: 0.4,

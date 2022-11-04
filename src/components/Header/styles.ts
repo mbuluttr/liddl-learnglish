@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { COLORS } from '../../constants/colors';
-import fonts from '../../constants/fonts';
+import { FONTS } from '../../constants/fonts';
 
 export const styles = StyleSheet.create({
   container: {
@@ -13,6 +13,6 @@ export const styles = StyleSheet.create({
   text: {
     color: COLORS.white,
     fontSize: 16,
-    ...fonts.Bold,
+    ...FONTS.Bold,
   },
 });
