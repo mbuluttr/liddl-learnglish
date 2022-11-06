@@ -76,7 +76,7 @@ const HidedAnswer = ({ item, onDelete }: HidedAnswerProps) => {
       <GestureDetector gesture={gesture}>
         <Animated.View style={animatedCardStyle}>
           <TouchableOpacity
-            style={[styles.wordContainer]}
+            style={styles.wordContainer}
             activeOpacity={0.8}
             onPress={() =>
               (textTranslationX.value = withTiming(textTranslationX.value <= 0.5 ? 1 : 0, { duration: 500 }))
