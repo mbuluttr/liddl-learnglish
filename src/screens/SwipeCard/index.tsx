@@ -64,9 +64,12 @@ const SwipeCard = () => {
 
       const storagedWords = await AsyncStorage.getItem('unknownWords');
       const unknownWordsArray = JSON.parse(storagedWords || '[]');
-      const word = WORDS.find((item) => item.id === question.id);
-      unknownWordsArray.unshift(word);
-      await AsyncStorage.setItem('unknownWords', JSON.stringify(unknownWordsArray));
+      const isExists = unknownWordsArray.find((item: Question) => item.id === question.id);
+
+      if (!isExists) {
+        unknownWordsArray.unshift(question);
+        await AsyncStorage.setItem('unknownWords', JSON.stringify(unknownWordsArray));
+      }
     }
     setQuestions(questions.filter((q) => q.id !== question.id));
   };

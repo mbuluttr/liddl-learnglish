@@ -12,6 +12,7 @@ import WORDS from '../../data/words.json';
 import EndGame from '../../components/EndGame';
 import { SCREEN_WIDTH } from '../../constants/sizes';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Question } from '../../types';
 
 const FlipCard = () => {
   const degree = useSharedValue(0);
@@ -52,8 +53,12 @@ const FlipCard = () => {
 
     const storagedWords = await AsyncStorage.getItem('unknownWords');
     const unknownWordsArray = JSON.parse(storagedWords || '[]');
-    unknownWordsArray.unshift(word);
-    await AsyncStorage.setItem('unknownWords', JSON.stringify(unknownWordsArray));
+    const isExists = unknownWordsArray.find((item: Question) => item.id === word.id);
+
+    if (!isExists) {
+      unknownWordsArray.unshift(word);
+      await AsyncStorage.setItem('unknownWords', JSON.stringify(unknownWordsArray));
+    }
   };
 
   const animatedFront = useAnimatedStyle(() => {
