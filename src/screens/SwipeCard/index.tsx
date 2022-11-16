@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { COLORS } from '../../constants/colors';
 import WORDS from '../../data/words.json';
 import Card from './components/Card';
-import { Question } from '../../types';
+import { Question, Word } from '../../types';
 import { AppNativeStackNavigationProp } from '../../routers/types';
 import Header from '../../components/Header';
 import { useNavigation } from '@react-navigation/native';
@@ -67,7 +67,7 @@ const SwipeCard = () => {
       const isExists = unknownWordsArray.find((item: Question) => item.id === question.id);
 
       if (!isExists) {
-        unknownWordsArray.unshift(question);
+        unknownWordsArray.unshift(WORDS.find((item: Word) => item.id === question.id));
         await AsyncStorage.setItem('unknownWords', JSON.stringify(unknownWordsArray));
       }
     }
